@@ -101,6 +101,26 @@ This is called Conditional Rendering using the Logical AND (&&) Operator. It ren
 
 ---
 
+ **i Explain in 2 sentences how the Virtual DOM handles your Stamina updates.**
+    The Virtual DOM efficiently updates only the parts of the UI that change instead of reloading the entire page. In the stamina task, when the state updates after each button click, React compares the new Virtual DOM with the previous one and updates only the stamina text and button state in the real DOM.
+
+ **ii Provide a snippet of your Modulus logic for the 5th-click bug.**
+```javascript
+     if (newclick % 5 === 0) {
+      damage = 15;
+    }
+```
+ **iii List 3 differences between Vite and Create React App (CRA).**
+
+ | Vite                                | Create React App (CRA)        |
+| ----------------------------------- | ----------------------------- |
+| Faster development server startup   | Slower startup time           |
+| Uses native ES Modules              | Uses Webpack bundling         |
+| Faster Hot Module Replacement (HMR) | Slower refresh during changes |
+| Lightweight and modern tooling      | Heavier configuration         |
+| Easier and faster build process     | Comparatively slower builds   |
+
+
 
 ---
 **Signature:**  
