@@ -142,7 +142,7 @@ export default Form;
 
 - **Local Dev Server:** http://localhost:5173
 - **Git Repository:** https://github.com/Paa1Vyas/react_interns
-- **Note:** All changes are done in the **theRaj** branch.
+- **Note:** All changes are done in the **dip_baldha** branch.
 
 ---
 
