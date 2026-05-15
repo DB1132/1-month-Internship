@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 
 export default function Weather() {
-  const [Weather, setWether] = useState(null);
+  const [weather, setWether] = useState(null);
 
   useEffect(() => {
     fetch(
