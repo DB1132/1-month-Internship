@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Api1 from './Api1'
+import Home from './Home'
 
 
 
@@ -15,7 +16,8 @@ function App() {
     <>
     <BrowserRouter>
     <Routes>
-      <Route path = "/" element = {<Api1/>}/>
+      <Route path = "/" element = {<Home/>}/>
+      <Route path = "/api1" element = {<Api1/>}/>
     </Routes>
     </BrowserRouter>
     </>
