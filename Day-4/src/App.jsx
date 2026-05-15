@@ -18,7 +18,7 @@ function App() {
     <Routes>
       <Route path = "/" element = {<Home/>}/>
       <Route path = "/api1" element = {<Api1/>}/>
-      <Route path="/wether" element = < Weather/> />
+      <Route path="/weather" element = < Weather/> />
     </Routes>
     </BrowserRouter>
     </>
